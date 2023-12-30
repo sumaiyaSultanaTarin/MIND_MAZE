@@ -40,17 +40,17 @@
             this.ResultTransition = new System.Windows.Forms.Timer(this.components);
             this.sidebarTrasition = new System.Windows.Forms.Timer(this.components);
             this.ResultSection = new System.Windows.Forms.FlowLayoutPanel();
-            this.hard1 = new System.Windows.Forms.Button();
             this.pnhard = new System.Windows.Forms.Panel();
             this.pnMedium = new System.Windows.Forms.Panel();
-            this.medium1 = new System.Windows.Forms.Button();
-            this.easy1 = new System.Windows.Forms.Button();
             this.pnEasy = new System.Windows.Forms.Panel();
             this.pnResults = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.Results = new System.Windows.Forms.Button();
+            this.easy1 = new System.Windows.Forms.Button();
+            this.medium1 = new System.Windows.Forms.Button();
+            this.hard1 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -83,7 +83,7 @@
             this.menuController.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuController.Location = new System.Drawing.Point(0, 70);
             this.menuController.Name = "menuController";
-            this.menuController.Size = new System.Drawing.Size(65, 638);
+            this.menuController.Size = new System.Drawing.Size(211, 638);
             this.menuController.TabIndex = 3;
             // 
             // pnDeshboard
@@ -170,26 +170,6 @@
             this.ResultSection.Size = new System.Drawing.Size(206, 60);
             this.ResultSection.TabIndex = 22;
             // 
-            // hard1
-            // 
-            this.hard1.AutoSize = true;
-            this.hard1.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.hard1.FlatAppearance.BorderSize = 0;
-            this.hard1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.hard1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hard1.ForeColor = System.Drawing.Color.Black;
-            this.hard1.Image = ((System.Drawing.Image)(resources.GetObject("hard1.Image")));
-            this.hard1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.hard1.Location = new System.Drawing.Point(0, 0);
-            this.hard1.Name = "hard1";
-            this.hard1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.hard1.Size = new System.Drawing.Size(207, 54);
-            this.hard1.TabIndex = 11;
-            this.hard1.Text = "        Expert";
-            this.hard1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.hard1.UseVisualStyleBackColor = false;
-            this.hard1.Click += new System.EventHandler(this.hard1_Click);
-            // 
             // pnhard
             // 
             this.pnhard.Controls.Add(this.hard1);
@@ -205,46 +185,6 @@
             this.pnMedium.Name = "pnMedium";
             this.pnMedium.Size = new System.Drawing.Size(207, 54);
             this.pnMedium.TabIndex = 15;
-            // 
-            // medium1
-            // 
-            this.medium1.AutoSize = true;
-            this.medium1.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.medium1.FlatAppearance.BorderSize = 0;
-            this.medium1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.medium1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.medium1.ForeColor = System.Drawing.Color.Black;
-            this.medium1.Image = ((System.Drawing.Image)(resources.GetObject("medium1.Image")));
-            this.medium1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.medium1.Location = new System.Drawing.Point(0, 0);
-            this.medium1.Name = "medium1";
-            this.medium1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.medium1.Size = new System.Drawing.Size(207, 54);
-            this.medium1.TabIndex = 13;
-            this.medium1.Text = "        Medium";
-            this.medium1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.medium1.UseVisualStyleBackColor = false;
-            this.medium1.Click += new System.EventHandler(this.medium1_Click);
-            // 
-            // easy1
-            // 
-            this.easy1.AutoSize = true;
-            this.easy1.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.easy1.FlatAppearance.BorderSize = 0;
-            this.easy1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.easy1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.easy1.ForeColor = System.Drawing.Color.Black;
-            this.easy1.Image = ((System.Drawing.Image)(resources.GetObject("easy1.Image")));
-            this.easy1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.easy1.Location = new System.Drawing.Point(0, 0);
-            this.easy1.Name = "easy1";
-            this.easy1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.easy1.Size = new System.Drawing.Size(207, 54);
-            this.easy1.TabIndex = 12;
-            this.easy1.Text = "        Beginner";
-            this.easy1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.easy1.UseVisualStyleBackColor = false;
-            this.easy1.Click += new System.EventHandler(this.easy1_Click);
             // 
             // pnEasy
             // 
@@ -341,6 +281,66 @@
             this.Results.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Results.UseVisualStyleBackColor = false;
             this.Results.Click += new System.EventHandler(this.Results_Click);
+            // 
+            // easy1
+            // 
+            this.easy1.AutoSize = true;
+            this.easy1.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.easy1.FlatAppearance.BorderSize = 0;
+            this.easy1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.easy1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.easy1.ForeColor = System.Drawing.Color.Black;
+            this.easy1.Image = ((System.Drawing.Image)(resources.GetObject("easy1.Image")));
+            this.easy1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.easy1.Location = new System.Drawing.Point(0, 0);
+            this.easy1.Name = "easy1";
+            this.easy1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.easy1.Size = new System.Drawing.Size(207, 54);
+            this.easy1.TabIndex = 12;
+            this.easy1.Text = "        Beginner";
+            this.easy1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.easy1.UseVisualStyleBackColor = false;
+            this.easy1.Click += new System.EventHandler(this.easy1_Click);
+            // 
+            // medium1
+            // 
+            this.medium1.AutoSize = true;
+            this.medium1.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.medium1.FlatAppearance.BorderSize = 0;
+            this.medium1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.medium1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.medium1.ForeColor = System.Drawing.Color.Black;
+            this.medium1.Image = ((System.Drawing.Image)(resources.GetObject("medium1.Image")));
+            this.medium1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.medium1.Location = new System.Drawing.Point(0, 0);
+            this.medium1.Name = "medium1";
+            this.medium1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.medium1.Size = new System.Drawing.Size(207, 54);
+            this.medium1.TabIndex = 13;
+            this.medium1.Text = "        Medium";
+            this.medium1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.medium1.UseVisualStyleBackColor = false;
+            this.medium1.Click += new System.EventHandler(this.medium1_Click);
+            // 
+            // hard1
+            // 
+            this.hard1.AutoSize = true;
+            this.hard1.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.hard1.FlatAppearance.BorderSize = 0;
+            this.hard1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hard1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hard1.ForeColor = System.Drawing.Color.Black;
+            this.hard1.Image = ((System.Drawing.Image)(resources.GetObject("hard1.Image")));
+            this.hard1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.hard1.Location = new System.Drawing.Point(0, 0);
+            this.hard1.Name = "hard1";
+            this.hard1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.hard1.Size = new System.Drawing.Size(207, 54);
+            this.hard1.TabIndex = 11;
+            this.hard1.Text = "        Expert";
+            this.hard1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.hard1.UseVisualStyleBackColor = false;
+            this.hard1.Click += new System.EventHandler(this.hard1_Click);
             // 
             // button6
             // 
