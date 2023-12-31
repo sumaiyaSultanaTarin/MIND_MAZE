@@ -32,8 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtSelectLevel = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtChooseLevel = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -80,16 +80,6 @@
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(66, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(205, 30);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Choose Questions Type";
-            this.label2.Click += new System.EventHandler(this.label2_Click_1);
-            // 
             // txtChooseLevel
             // 
             this.txtChooseLevel.BackColor = System.Drawing.SystemColors.Info;
@@ -104,6 +94,16 @@
             this.txtChooseLevel.Size = new System.Drawing.Size(289, 28);
             this.txtChooseLevel.TabIndex = 1;
             this.txtChooseLevel.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(66, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(205, 30);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Choose Questions Type";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // button2
             // 
@@ -170,6 +170,7 @@
             this.next.TabIndex = 39;
             this.next.Text = "NEXT";
             this.next.UseVisualStyleBackColor = false;
+            this.next.Click += new System.EventHandler(this.next_Click);
             // 
             // QuizLevel
             // 

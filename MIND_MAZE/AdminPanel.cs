@@ -251,6 +251,21 @@ namespace MIND_MAZE
             f1.ShowDialog();
             this.Close();
         }
+
+        private void menuController_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
     }
  }
 

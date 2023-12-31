@@ -89,5 +89,14 @@ namespace MIND_MAZE
         private void QuizLevel_Load(object sender, EventArgs e)
         {
             panel1.Visible = false;        }
+
+        private void next_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Q1 q1 = new Q1();
+            q1.ShowDialog();
+            this.Close();
+
+        }
     }
 }
